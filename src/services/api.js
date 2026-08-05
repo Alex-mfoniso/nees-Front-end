@@ -4,13 +4,13 @@ const isLocalHost =
 
 const API_BASE_URL = isLocalHost
   ? 'http://localhost:5000/api'
-  // : import.meta.env.VITE_API_URL || 'https://nees-1.onrender.com/api'
-  : import.meta.env.VITE_API_URL || 'https://nees-z053.onrender.com/api'
+  : import.meta.env.VITE_API_URL || 'https://nees-1.onrender.com/api'
+  // : import.meta.env.VITE_API_URL || 'https://nees-z053.onrender.com/api'
 
 const RENDER_BASE_URL = isLocalHost
   ? 'http://localhost:5000'
-  // : import.meta.env.VITE_BASE_URL || 'https://nees-1.onrender.com'
-  : import.meta.env.VITE_BASE_URL || 'https://nees-z053.onrender.com'
+  : import.meta.env.VITE_BASE_URL || 'https://nees-1.onrender.com'
+  // : import.meta.env.VITE_BASE_URL || 'https://nees-z053.onrender.com'
 
 // Helper function to handle API responses
 const handleResponse = async (response) => {
